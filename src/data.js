@@ -11,3 +11,5 @@ export var pattern1 = [
   ['#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F'],
   ['#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F', '#F00', '#00F']
 ]
+
+export var defaultVal = Array(10).fill(Array(10).fill("#F00"))
