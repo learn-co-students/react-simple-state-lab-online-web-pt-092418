@@ -8,9 +8,16 @@ class Cell extends React.Component {
     }
   }
 
+
+  changeColor = {} => {
+    const newColor = '#333'
+    this.setState({
+      color: newColor
+    })
+  }
   render (){
     return(
-      <div class="cell" style={{backgroundColor: '#F00'}}>
+      <div class="cell" style={{backgroundColor: '#F00'}} onClick={this.changeColor}>
       </div>
     )
   }
